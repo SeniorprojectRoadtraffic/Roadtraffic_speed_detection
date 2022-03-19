@@ -2,7 +2,7 @@
 import cv2
 
 # load haarcascade for car
-cars_cascade = cv2.CascadeClassifier('haarcascade_car.xml')
+cars_cascade = cv2.CascadeClassifier('haarcascade_car.xml') #กำหนดลักษณะของสิ่งที่ต้องการตรวจจับ
 
 # detect function
 def detect_cars(frame):
